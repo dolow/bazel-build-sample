@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<resources>
+    <string name='app_name'>basel sandbox</string>
+    <string name='notification_sender_id'>
+         dummy_gcm_project_id
+    </string>
+</resources>
