@@ -17,3 +17,9 @@ then run;
 ```
 $ bazel build //Sandbox:app --crosstool_top=@androidndk//:toolchain --host_crosstool_top=//tools/cpp:toolchain
 ```
+
+apk will be created in the directory below
+
+```
+bazel-bin/Sandbox/app.apk
+```
