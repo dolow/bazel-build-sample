@@ -26,12 +26,6 @@ objc_binary (
     hdrs = glob(["objc/*.h"]),
     #deps = [":ios_app_library"],
 )
-#
-#objc_library (
-#    name = "ios_app_library",
-#    srcs = glob(["objc/*.m"], exclude = ["objc/main.m"]),
-#    hdrs = glob(["objc/*.h"]),
-#)
 
 # ios project
 ios_application (
