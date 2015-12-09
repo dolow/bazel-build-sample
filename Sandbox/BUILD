@@ -21,10 +21,8 @@ android_binary (
 
 objc_binary (
     name = "ios_app_binary",
-    #srcs = ["objc/main.m"],
     srcs = glob(["objc/*.m"]),
     hdrs = glob(["objc/*.h"]),
-    #deps = [":ios_app_library"],
 )
 
 # ios project
