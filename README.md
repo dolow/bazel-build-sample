@@ -4,9 +4,9 @@ This is a sample project for [Bazel](http://bazel.io/) build.
 
 # Environment
 
-- Android NDK r10e
-- Android SDK 22
-- Bazel 0.1.1
+- Android NDK r12b
+- Android SDK 23
+- Bazel 0.4.3
 
 # How to build
 
