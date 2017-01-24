@@ -14,8 +14,7 @@ android_binary (
     custom_package = "jp.do_low.bazel.sample",
     manifest = "android/AndroidManifest.xml",
     resource_files = glob(["res/**"]),
-    deps = ["//external:android/appcompat_v4", ":android_app_cpp"],
-    legacy_native_support = 0,
+    deps = [":android_app_cpp"],
 )
 
 

@@ -10,7 +10,7 @@ import android.util.Log;
 public class AppActivity extends Activity
 {
     static {
-        System.loadLibrary("app");
+        System.loadLibrary("android_app");
     }
 
     private native static void jniCallback(String text);
